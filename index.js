@@ -1,9 +1,23 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  reversed  = [...word].reverse().join("");
+  return word === reversed;
+   let word1="abba";
+   let word2="racecar";
+   let word3="madam";
+
+   console.log(isPalindrome(word1));
+   console.log(isPalindrome(word2));
+   console.log(isPalindrome(word3));
+ 
 }
 
 /* 
-  Add your pseudocode here
+reverse the input string
+
+if the reversed string is the same as the input
+  return true
+else
+  return false
 */
 
 /*
